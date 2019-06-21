@@ -1,0 +1,7 @@
+CREATE TABLE `ConversationKey` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `key` varchar(255) DEFAULT NULL,
+  `skey` varchar(255) DEFAULT NULL,
+  `createTime` timestamp NULL DEFAULT NULL ON UPDATE CURRENT_TIMESTAMP,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;
